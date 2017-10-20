@@ -168,27 +168,50 @@ class Deal extends Component {
   }
 
   render() {
+    var num = 0;
+
+    let dealOfDay = null;
+    let headerPhoto = null;
+
+
+    if (num === 1 ) {
+      dealOfDay =
+      <div id="deal-container">
+        <div id="deal-div">
+            <img src="http://demandware.edgesuite.net/sits_pod32/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dwe466fdad/images/products/vegetables/3777_01_galeuxdeysines.jpg?sw=774&cx=302&cy=0&cw=1196&ch=1196" />
+        </div>
+        <div id="deal-div-right">
+          <h1>Limited Edition Featured Pumpkin</h1>
+          <h2>Uniform and high yielding Jill-Be-Little has a flattened shape and wide, deep ribs. Orange 1/2 lb. fruits measure 3-4'' diam. x 2 1/2'' tall. Great for tabletop and window displays, especially when paired with Spark. Improved disease resistance over Munchkin, which it replaces. Strong long vine plants</h2>
+        </div>
+      </div>
+
+    } else {
+      headerPhoto =
+
+      <div id="headerPhoto">
+        <img src="https://static.pexels.com/photos/265258/pexels-photo-265258.jpeg" />
+      </div>
+    }
+
     return (
       <div>
-        <div id="deal-container">
-          <div id="deal-div">
-              <img src="http://demandware.edgesuite.net/sits_pod32/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dwe466fdad/images/products/vegetables/3777_01_galeuxdeysines.jpg?sw=774&cx=302&cy=0&cw=1196&ch=1196" />
-          </div>
-          <div id="deal-div-right">
-            <h1>Limited Edition Featured Pumpkin</h1>
-            <h2>Uniform and high yielding Jill-Be-Little has a flattened shape and wide, deep ribs. Orange 1/2 lb. fruits measure 3-4'' diam. x 2 1/2'' tall. Great for tabletop and window displays, especially when paired with Spark. Improved disease resistance over Munchkin, which it replaces. Strong long vine plants</h2>
-          </div>
-        </div>
+
+        {headerPhoto}
+        {dealOfDay}
 
           <div id="main-body">
-            < Pumpkin url={this.state.pumpkinData[0].url} name={this.state.pumpkinData[0].name} />
+            < Pumpkin url={this.state.pumpkinData[2].url} name={this.state.pumpkinData[0].name} />
             < Pumpkin url={this.state.pumpkinData[1].url} name={this.state.pumpkinData[1].name} />
             < Pumpkin url={this.state.pumpkinData[3].url} name={this.state.pumpkinData[3].name} />
             < Pumpkin url={this.state.pumpkinData[22].url} name={this.state.pumpkinData[22].name} />
             < Pumpkin url={this.state.pumpkinData[28].url} name={this.state.pumpkinData[28].name} />
-            < Pumpkin url={this.state.pumpkinData[18].url} name={this.state.pumpkinData[18].name} />
+            < Pumpkin url={this.state.pumpkinData[13].url} name={this.state.pumpkinData[13].name} />
+            < Pumpkin url={this.state.pumpkinData[24].url} name={this.state.pumpkinData[24].name} />
+            < Pumpkin url={this.state.pumpkinData[25].url} name={this.state.pumpkinData[25].name} />
+            < Pumpkin url={this.state.pumpkinData[17].url} name={this.state.pumpkinData[17].name} />
           </div>
-        
+
       </div>
     );
   }

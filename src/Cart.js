@@ -55,11 +55,9 @@ class Cart extends Component {
 
                   <div className="modal-footer">
                     <button type="button" className="btn btn-warning" data-dismiss="modal">Close</button>
+                    <br/><br/>
                   </div>
-                  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
               </div>
             </div>
           </div>
