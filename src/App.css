@@ -24,7 +24,7 @@ body {
 
 #main-content {
   position: relative;
-  margin: 0 auto;
+  left: 22%;
   top: 50px;
   width: 80%;
   height: 300px;
@@ -120,6 +120,8 @@ td {
     position: relative;
     margin: 0 auto;
     width: 80%;
+    top: -60px;
+    left: -160px;
 }
 
 .pumpkin-main {
@@ -128,7 +130,7 @@ td {
   text-align: center;
   background-color: rgba(215,177,80,.1);
   float: left;
-  margin: 45px;
+  margin: 10px;
 }
 
 .pumpkin-main img {
