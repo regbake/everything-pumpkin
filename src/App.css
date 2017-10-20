@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(215,177,80,.1);
+  background-color: rgba(215,177,80,.5);
 }
 
 .App-header {
@@ -24,7 +24,7 @@ body {
 
 #main-content {
   position: relative;
-  margin: 0 auto;
+  left: 22%;
   top: 50px;
   width: 80%;
   height: 300px;
@@ -81,7 +81,7 @@ td {
 #deal-div {
   position: relative;
   top: 10px;
-  border: solid black 1px;
+  border: solid grey 1px;
 }
 
 #deal-div img {
@@ -120,18 +120,29 @@ td {
     position: relative;
     margin: 0 auto;
     width: 80%;
+    top: -60px;
+    left: -160px;
 }
 
 .pumpkin-main {
   width: 250px;
   height: 250px;
   text-align: center;
-  background-color: rgba(215,177,80,.1);
+  background-color: rgba(215,177,80,.02);
   float: left;
-  margin: 45px;
+  margin: 10px;
 }
 
 .pumpkin-main img {
     width: 80%;
     height: 80%;
+}
+
+.pumpkin-main p {
+    position: relative;
+    top: -20px;
+    left: 25px;
+    color: white;
+    background-color: rgba(215,177,80,.4);
+    width: 200px;
 }
