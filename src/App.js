@@ -22,7 +22,7 @@ class App extends Component {
           <div>
           <nav className="navbar navbar-inverse navbar-fixed-top" id="main-nav">
             <div className="container">
-              <a className="navbar-brand" href="#">Pumpkins Direct</a>
+              <a className="navbar-brand" href="#">Everything Pumpkin</a>
 
               <form className="navbar-form navbar-left" role="search">
                 <div className="form-group">

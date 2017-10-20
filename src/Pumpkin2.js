@@ -9,19 +9,19 @@ class Pumpkin extends Component {
     const name = this.props.name;
     return (
       <div>
-      <div className="pumpkin-main">
-          <figure>
-              <img src={this.props.url} />
-              <p>{name + "   "}
-              <button type="button" className="btn btn-warning glyphicon glyphicon-shopping-cart pumpkin-button" >$24.99</button>
-              </p>
+          <div className="pumpkin-main">
+            <img src={this.props.url} />
+            <p>{name}</p>
+            <button type="button" className="btn btn-warning glyphicon glyphicon-shopping-cart">$24.99</button>
+          </div>
 
+          <figure>
+            <img src={this.props.url} />
             <figcaption>
               <p>{this.props.description}</p>
               <p><a href="#">Read More</a></p>
             </figcaption>
           </figure>
-          </div>
         </div>
 
     );
