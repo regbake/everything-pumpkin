@@ -46,6 +46,34 @@ body {
   text-decoration: none;
 }
 
+th {
+    background-color: #FCAB10;
+    color: white;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+#disclaimer {
+  font-size: 12px;
+}
+
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 #deal-container {
   width: 70%;
 }
@@ -106,5 +134,4 @@ body {
 .pumpkin-main img {
     width: 80%;
     height: 80%;
-
 }
